@@ -1,0 +1,21 @@
+{
+    "name": "CO2_Ampel",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "CO2-Ampel mit CCS811": "github:tonitaste/co2-ampel-mit-ccs811#bb3ccbbbad367f343ee0659ce6aa0581c1ccf949"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
