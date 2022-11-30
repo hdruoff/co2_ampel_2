@@ -1,6 +1,3 @@
-input.onButtonPressed(Button.A, function () {
-    t_co22 = !(t_co22)
-})
 function zeigeOLED2 () {
     oledssd1306.clearDisplay()
     oledssd1306.setTextXY(0, 0)
@@ -12,6 +9,9 @@ function zeigeOLED2 () {
     oledssd1306.writeString("TVOC:")
     oledssd1306.writeNumber(tvoc2)
 }
+input.onButtonPressed(Button.A, function () {
+    t_co22 = !(t_co22)
+})
 input.onButtonPressed(Button.AB, function () {
     t_music = !(t_music)
 })
